@@ -1,6 +1,6 @@
 # Tax Calculator Item List Component
 
-🔗 **Live Demo:** [https://VictorKwong.github.io/git-tax/](https://VictorKwong.github.io/git-tax/)
+🔗 **Live Demo:** [https://victorkwong.github.io/GitTaxCalculator](https://victorkwong.github.io/GitTaxCalculator)
 
 This React component renders a dynamic list of items with the following features:
 
