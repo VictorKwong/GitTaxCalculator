@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/git-tax/static/css/main.6058ba9c.css",
+    "main.js": "/git-tax/static/js/main.a7fa9dd2.js",
+    "static/js/453.ea6e9ddf.chunk.js": "/git-tax/static/js/453.ea6e9ddf.chunk.js",
+    "index.html": "/git-tax/index.html",
+    "main.6058ba9c.css.map": "/git-tax/static/css/main.6058ba9c.css.map",
+    "main.a7fa9dd2.js.map": "/git-tax/static/js/main.a7fa9dd2.js.map",
+    "453.ea6e9ddf.chunk.js.map": "/git-tax/static/js/453.ea6e9ddf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6058ba9c.css",
+    "static/js/main.a7fa9dd2.js"
+  ]
+}
