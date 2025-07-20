@@ -1,5 +1,7 @@
 # Tax Calculator Item List Component
 
+🔗 **Live Demo:** [https://VictorKwong.github.io/git-tax/](https://VictorKwong.github.io/git-tax/)
+
 This React component renders a dynamic list of items with the following features:
 
 - Each item has editable fields: **Item Name**, **Price**, and **Tax Type** (None, HST, PST, GST).
