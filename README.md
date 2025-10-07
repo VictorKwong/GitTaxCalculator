@@ -1,33 +1,49 @@
-# Tax Calculator Item List Component
+# Git Tax Calculator Item List Component
 
 🔗 **Live Demo:** [https://victorkwong.github.io/GitTaxCalculator](https://victorkwong.github.io/GitTaxCalculator)
 
-This React component renders a dynamic list of items with the following features:
+🗓 **Last Updated:** 06-Oct-2025
 
-- Each item has editable fields: **Item Name**, **Price**, and **Tax Type** (None, HST, PST, GST).
-- Tax amount and total price (price + tax) are automatically calculated and displayed.
-- Users can remove items from the list using the **Remove** button.
-- The list is rendered as a grid with appropriate headers and input controls.
+# React Tax Calculator
+
+A dynamic React component to calculate taxes and totals for a list of items. Designed with **accessibility (AODA)** and user-friendly features.
 
 ## Features
 
-- Dynamic input fields for item name and price.
-- Tax selection dropdown with options: None, HST, PST, GST.
-- Automatic tax and total calculations.
-- Item removal functionality.
+- **Editable Fields for Each Item**:
+  - **Item Name** – text input.
+  - **Price** – numeric input, supports default values.
+  - **Tax Type** – dropdown (`None`, `HST`, `PST`, `GST`).
 
-## Usage
+- **Automatic Calculations**:
+  - Tax amount is calculated based on price and selected tax type.
+  - Total price = Price + Tax Amount.
 
-- The component expects an `items` array in state containing objects with `name`, `price`, and `taxType`.
-- The `updateItem(index, field, value)` function updates the item properties.
-- The `removeItem(index)` function removes an item from the list.
-- The functions `getTaxAmount(price, taxType)` and `getTotal(price, taxAmount)` calculate tax and total.
+- **Manual Tax Override**:
+  - Users can manually edit the tax amount.
+  - **Lock/Unlock** button (🔓 / 🔒) allows:
+    - **Locked**: tax amount does not change when price or tax type changes.
+    - **Unlocked**: tax amount updates automatically.
 
-### Example item object:
+- **Item Removal**:
+  - Remove an item using the **Remove** button.
 
-```js
+- **Default Settings**:
+  - Collapsible section to set **Default Tax Type** and **Default Price** for new items.
+  - Saves space when minimized and expands on demand.
+
+- **Accessibility & AODA Compliance**:
+  - High-contrast inputs and buttons.
+  - Visible focus outlines for keyboard users.
+  - `aria` attributes for screen readers.
+
+## State Structure
+
+```javascript
 {
-  name: "Sample Item",
-  price: 10.00,
-  taxType: "h" // "h" for HST, "p" for PST, "g" for GST, or "" for none
+  name: "Sample Item",    // string
+  price: 10.00,           // number or empty string
+  taxType: "h",           // "h" = HST, "p" = PST, "g" = GST, "" = none
+  taxAmount: 1.3,         // calculated or manually overridden
+  taxLocked: false         // true if tax amount is locked
 }
