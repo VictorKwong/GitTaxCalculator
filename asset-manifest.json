@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GitTaxCalculator/static/css/main.6058ba9c.css",
-    "main.js": "/GitTaxCalculator/static/js/main.3afc50ab.js",
+    "main.css": "/GitTaxCalculator/static/css/main.f9343cd1.css",
+    "main.js": "/GitTaxCalculator/static/js/main.523fbac2.js",
     "static/js/453.ea6e9ddf.chunk.js": "/GitTaxCalculator/static/js/453.ea6e9ddf.chunk.js",
     "index.html": "/GitTaxCalculator/index.html",
-    "main.6058ba9c.css.map": "/GitTaxCalculator/static/css/main.6058ba9c.css.map",
-    "main.3afc50ab.js.map": "/GitTaxCalculator/static/js/main.3afc50ab.js.map",
+    "main.f9343cd1.css.map": "/GitTaxCalculator/static/css/main.f9343cd1.css.map",
+    "main.523fbac2.js.map": "/GitTaxCalculator/static/js/main.523fbac2.js.map",
     "453.ea6e9ddf.chunk.js.map": "/GitTaxCalculator/static/js/453.ea6e9ddf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6058ba9c.css",
-    "static/js/main.3afc50ab.js"
+    "static/css/main.f9343cd1.css",
+    "static/js/main.523fbac2.js"
   ]
 }
